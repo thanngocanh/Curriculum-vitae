@@ -1,9 +1,54 @@
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-border-radius: 40;
-border-color: black;
-overflow: hidden;
-background-color: aqua;
+    list-style-type: none; /*Bỏ đi dấu chấm ở đầu mỗi danh sách */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*Khi chiều cao của box không đủ chứa text, thì text bị tràn sẽ được dấu đi.*/
+    background-color: lightblue;
+}
+
+/* Sử dụng thuộc tính 'float' : left để cho các thành phần của menu dàn thành hàng ngang */
+li {
+    float: left;
+}
+
+li a, .dropsyll {
+    display: inline-flexbox;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /*Tạo link chữ sẽ hiển thị dấu gạch chân, sử dụng none để chữ trở về tạo hình nguyên thủy*/
+}
+
+/* Hiệu ứng: Thay đổi màu nền khi chúng ta click vào bất kỳ mục nào trên menu */
+li a:hover, .dropsyll{
+    background-color: aqua;
+}
+
+.dropdown {
+    display: inline-flexbox;
+}
+
+.drop-from{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+
+.drop-from a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.drop-from a:hover {
+    background-color: aliceblue;
+}
+
+.dropdown:hover .drop-from { 
+    display: block;
 }
