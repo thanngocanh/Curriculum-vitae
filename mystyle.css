@@ -163,3 +163,10 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
+
+.text8 {
+    line-height: 38px;
+    font-weight: lighter;
+    font-size:22px;
+    font-family: 'Times New Roman', Times, serif;
+}
