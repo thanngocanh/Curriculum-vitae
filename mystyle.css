@@ -27,10 +27,10 @@ nên các children của nó sẽ được xếp lại horizontal. */
 header {
     display: flex;
     align-items: center;
-    width: 100%;
     margin: 0px 5px 0px;
     padding: 20px;
     background-color: blanchedalmond;
+    width: auto;
 }
 
 .menu {
@@ -51,24 +51,27 @@ a {
     margin: 10px;
     font-size: 22px;
     color: black;
-    text-decoration: none; /*bỏ đường gạch chân*/
+    text-decoration: none;
+    /*bỏ đường gạch chân*/
 }
 
 .menu_main_item {
-    text-align:center;
+    text-align: center;
     background-color: lightcyan;
     border: 5px double aqua;
     border-radius: 40px;
     margin-left: 15px;
     margin-right: 15px;
+    
 }
 
 .menu_item {
-    text-align:center;
+    text-align: center;
     border: 5px double gray;
     border-radius: 40px;
     margin-left: 15px;
     margin-right: 15px;
+    
 }
 
 h1:hover {
@@ -86,14 +89,14 @@ h1:hover {
     margin: 5px;
     border: 5px double aqua;
     border-radius: 40px;
-    background-color:black;
+    background-color: black;
     color: white;
 
 }
 
 h2 {
     font-size: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
@@ -111,7 +114,7 @@ h2 {
 
 .text1 {
     margin-top: -50px;
-    text-align: center;  
+    text-align: center;
 }
 
 .text2 {
@@ -151,7 +154,7 @@ h2 {
     margin-top: 40px;
     line-height: 37px;
     font-weight: lighter;
-    font-size:22px;
+    font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -161,7 +164,7 @@ h2 {
     padding-top: 20px;
     line-height: 31px;
     font-weight: lighter;
-    font-size:22px;
+    font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
@@ -170,21 +173,52 @@ h2 {
     margin-top: -40px;
     line-height: 37px;
     font-weight: lighter;
-    font-size:22px;
+    font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .text9 {
     text-align: center;
     line-height: 30px;
-    font-size:22px;
+    font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .text10 {
     line-height: 37px;
     font-weight: lighter;
-    font-size:22px;
+    font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
 }
 
+.contact_infor {
+    background-color: yellow;
+    display: flex;
+    width: 400px;
+    height: 1500px;
+}
+
+
+.avatar {
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    border: 5px solid goldenrod;
+    border-radius: 300px;
+
+}
+
+.name {
+    font-size: 18px;
+    margin-top: 260px;
+    margin-left: -235px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    border: 8px dashed goldenrod;
+    border-radius: 40px;
+    
+}
