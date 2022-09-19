@@ -8,6 +8,7 @@ body {
 
 /* Tạo và chỉnh kích cỡ logo */
 img {
+    text-align: center;
     max-width: 100%;
     height: auto;
 }
@@ -96,6 +97,7 @@ h2 {
     text-align: center;
 }
 
+
 .paper_size {
     width: 21cm;
     min-height: 29.7cm;
@@ -147,7 +149,7 @@ h2 {
 
 .text6 {
     margin-top: 40px;
-    line-height: 38px;
+    line-height: 37px;
     font-weight: lighter;
     font-size:22px;
     font-family: 'Times New Roman', Times, serif;
@@ -165,7 +167,8 @@ h2 {
 }
 
 .text8 {
-    line-height: 38px;
+    margin-top: -40px;
+    line-height: 37px;
     font-weight: lighter;
     font-size:22px;
     font-family: 'Times New Roman', Times, serif;
@@ -173,7 +176,15 @@ h2 {
 
 .text9 {
     text-align: center;
-    line-height: 31px;
-    font-size:26px;
+    line-height: 30px;
+    font-size:22px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.text10 {
+    line-height: 37px;
+    font-weight: lighter;
+    font-size:22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
