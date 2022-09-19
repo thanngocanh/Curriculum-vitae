@@ -44,6 +44,7 @@ header {
     margin: 0px 0px 0px 30px;
     padding: 0px;
     display: flex;
+    flex-wrap: wrap;
     overflow: hidden;
 }
 
@@ -62,6 +63,7 @@ a {
     border-radius: 40px;
     margin-left: 15px;
     margin-right: 15px;
+    width: auto;
     
 }
 
@@ -71,6 +73,7 @@ a {
     border-radius: 40px;
     margin-left: 15px;
     margin-right: 15px;
+    width: auto;
     
 }
 
