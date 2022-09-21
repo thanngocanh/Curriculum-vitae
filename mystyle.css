@@ -205,11 +205,12 @@ h2 {
 }
 
 .all-form {
+    text-align: center;
+    margin: 150px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
     background-color: black;
-    margin: 200px;
+    border: 2px solid plum;
+    border-radius: 20px;
 
 }
 
@@ -218,14 +219,14 @@ h2 {
     flex-direction: column;
     background-color: cornsilk;
     width: auto;
-    margin-top: -15px;
+    margin-top: -20px;
     border: 4px solid black;
     border-radius: 20px;
 
 }
 
 .avatar-name {
-    background-image: url(items/contact.jpg);
+    background-image: url(items/contact2.jpg);
     background-size: contain;
     display: flex;
     flex-wrap: wrap;
@@ -260,9 +261,13 @@ h2 {
 }
 
 .contact {
-   background-color: black;
-   width: 400px;
-   height: 400px;
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    width: 400px;
+    height: 400px;
+    font-size: larger;
 }
 
 .c2 {
@@ -270,11 +275,12 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
     background-color: black;
-    
+
 }
 
 .my-infor {
- color: white;
- width: 400px;
- height: 200px;
+    margin-top: 600px;
+    color: white;
+    width: 400px;
+    height: 200px;
 }
