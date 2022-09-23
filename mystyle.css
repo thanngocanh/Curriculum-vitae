@@ -26,7 +26,7 @@ img {
 /* Khi đặt giá trị của display thành flex, thì mặc định flex-direction sẽ là theo chiều horizontal, 
 nên các children của nó sẽ được xếp lại horizontal. */
 header {
-    background-color:blanchedalmond;
+    background-color: blanchedalmond;
     border: 2px double gray;
     display: flex;
     align-items: center;
@@ -233,7 +233,7 @@ h2 {
 }
 
 .reverse2 {
-    border: 2px goldenrod solid;
+    border: 5px dotted goldenrod;
     margin: 30px;
     border-radius: 300px;
     transition: 1s ease-out;
@@ -273,7 +273,7 @@ h2 {
     text-align: center;
     margin: 150px;
     display: flex;
-    background-color:blanchedalmond;
+    background-color: blanchedalmond;
     border: 2px solid goldenrod;
     border-radius: 20px;
 
@@ -355,7 +355,7 @@ h2 {
 .avatar-name2:hover {
     background-image: url(items/change.png);
     background-size: cover;
-    background-color:blanchedalmond;
+    background-color: blanchedalmond;
 }
 
 .name {
@@ -420,8 +420,28 @@ h2 {
     width: 1000px;
 }
 
+.c2-2 {
+    background-image: url(items/cute-line.jpg);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    color: black;
+    text-align: left;
+    width: 1000px;
+}
+
 .check {
     list-style-image: url(items/check-mark2.jpg);
+    line-height: 30px;
+    padding-top: 5px;
+    margin-left: 12.5px;
+    font-size: larger;
+}
+
+.check2 {
+    list-style-image: url(items/check-mark.png);
     line-height: 30px;
     padding-top: 5px;
     margin-left: 12.5px;
@@ -438,10 +458,29 @@ h2 {
     background-attachment: scroll;
 }
 
+.infor-text2 {
+    margin-left: 12.5px;
+    margin-right: 100px;
+    padding-left: 7px;
+    font-size: larger;
+    background-image: url(items/infor.jpg);
+    background-size: contain;
+    background-attachment: scroll;
+    border: 2px solid goldenrod;
+    border-radius: 40px;
+}
+
 .character {
     background-image: url(items/infor-bar2.png);
     background-size: cover;
     width: 500px;
+    height: 400px;
+}
+
+.character2 {
+    background-image: url(items/infor-bar.jpg);
+    background-size: cover;
+    width: 520px;
     height: 400px;
 }
 
