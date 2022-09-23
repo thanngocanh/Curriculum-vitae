@@ -22,6 +22,7 @@ img {
     min-height: 100px;
 }
 
+
 /* Khi đặt giá trị của display thành flex, thì mặc định flex-direction sẽ là theo chiều horizontal, 
 nên các children của nó sẽ được xếp lại horizontal. */
 header {
@@ -205,7 +206,10 @@ h2 {
 }
 
 .all-form {
-    width: 900px;
+    width: 920px;
+    height: 1600px;
+    max-width: 920px;
+    max-height: 1600px;
     text-align: center;
     margin: 150px;
     display: flex;
@@ -221,7 +225,7 @@ h2 {
     background-color: cornsilk;
     width: auto;
     margin-top: -20px;
-    border: 4px solid black;
+    border: 5px solid black;
     border-radius: 20px;
 
 }
@@ -249,8 +253,15 @@ h2 {
 
 }
 
+.avatar-name:hover {
+    background-image: url(items/change2.png);
+    background-size: cover;
+    background-color: black;
+}
+
 .name {
     font-size: 18px;
+    font-family: cursive;
     margin-top: 260px;
     margin-left: -235px;
     background-color: white;
@@ -267,21 +278,52 @@ h2 {
     padding-top: 40px;
     color: white;
     width: 400px;
-    height: 400px;
+    height: 1200px;
     font-size: larger;
+    border: 1px solid white;
+    border-radius: 20px;
 }
 
 .c2 {
+    background-image: url(items/Borderlight.jpg);
+    background-size: contain;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     background-color: black;
-
+    border-radius: 20px;
+    color: white;
+    text-align: left;
+    width: 1000px;
 }
 
-.my-infor {
-    margin-top: 600px;
-    color: white;
-    width: 400px;
-    height: 200px;
+.check {
+    list-style-image: url(items/check-mark2.jpg);
+    line-height: 30px;
+    padding-top: 5px;
+    margin-left: 12.5px;
+    font-size: larger;
+}
+
+.infor-text {
+    margin-left: 12.5px;
+    margin-right: 100px;
+    padding-left: 7px;
+    font-size: larger;
+    background-image: url(items/infor2.jpg);
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+.character {
+    background-image: url(items/infor-bar2.png);
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+}
+
+.char {
+    display: flex;
+    flex-wrap: wrap;
+    width: 410px;
+    height: 300px;
 }
