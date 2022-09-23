@@ -94,6 +94,12 @@ h1:hover {
     transition-duration: 1s;
 }
 
+.o:hover {
+    background-color: orangered;
+    box-shadow: 0px 0px 25px 25px goldenrod;
+    transition-duration: 1s;
+}
+
 .menu_item:hover {
     border: 5px double aqua;
     box-shadow: 2px 2px 10px 10px gray;
@@ -226,8 +232,21 @@ h2 {
     transition: 1s ease-out;
 }
 
+.reverse2 {
+    border: 2px goldenrod solid;
+    margin: 30px;
+    border-radius: 300px;
+    transition: 1s ease-out;
+}
+
 .reverse:hover {
     box-shadow: 0px 0px 25px 25px aqua;
+    transform: rotate(180deg);
+    transition-duration: 1s;
+}
+
+.reverse2:hover {
+    box-shadow: 0px 0px 25px 25px goldenrod;
     transform: rotate(180deg);
     transition-duration: 1s;
 }
