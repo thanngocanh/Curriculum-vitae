@@ -26,11 +26,12 @@ img {
 /* Khi đặt giá trị của display thành flex, thì mặc định flex-direction sẽ là theo chiều horizontal, 
 nên các children của nó sẽ được xếp lại horizontal. */
 header {
+    background-color:blanchedalmond;
+    border: 2px double gray;
     display: flex;
     align-items: center;
     margin: 0px 5px 0px;
     padding: 10px;
-    background-color: blanchedalmond;
     width: auto;
 }
 
@@ -78,6 +79,16 @@ a {
 
 }
 
+.menu_item2 {
+    text-align: center;
+    border: 5px double gray;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: auto;
+
+}
+
 h1:hover {
     box-shadow: 0px 0px 25px 25px aqua;
     transition-duration: 1s;
@@ -89,12 +100,26 @@ h1:hover {
     transition-duration: 1s;
 }
 
+.menu_item2:hover {
+    border: 5px double goldenrod;
+    box-shadow: 2px 2px 10px 10px orangered;
+    transition-duration: 1s;
+}
+
 .menu_item:hover a {
     margin: 5px;
     border: 5px double aqua;
     border-radius: 40px;
     background-color: black;
     color: white;
+
+}
+
+.menu_item2:hover a {
+    margin: 5px;
+    border: 5px double goldenrod;
+    border-radius: 40px;
+    background-color: lightgoldenrodyellow;
 
 }
 
