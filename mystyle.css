@@ -198,10 +198,12 @@ h2 {
 .reverse {
     margin: 30px;
     border-radius: 300px;
+    transition: 1s ease-out;
 }
 
 .reverse:hover {
     box-shadow: 0px 0px 25px 25px aqua;
+    transform: rotate(180deg);
     transition-duration: 1s;
 }
 
